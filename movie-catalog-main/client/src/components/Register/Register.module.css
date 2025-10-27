@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p {
+    color: black;
+    font-size: 16px;
+
+}
+
+.container p.error {
+    color: white;
+    font-size: 16px;
+
+}
+
+.card {
+    background-color: #8B4513;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 10px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 22px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.formSection {
+    margin: 0;
+    width: 100%;
+}
+
+.formSection label {
+    color: black;
+    margin-bottom: 3px;
+    font-size: 16px;
+}
+.formSection.error {
+    color: white;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+
+
+
+button:hover {
+    color: #ff9900;
+}

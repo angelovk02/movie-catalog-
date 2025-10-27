@@ -1,0 +1,46 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.recentMoviesContainer {
+    padding: 0 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+}
+
+.recentMoviesContainer h2{
+    margin-top: 10px;
+}
+
+.recentMoviesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.noMoviesCard {
+    background-color: #8B4513;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #fff;
+}

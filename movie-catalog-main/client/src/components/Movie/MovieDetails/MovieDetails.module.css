@@ -1,0 +1,118 @@
+.movieDetailsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+.movieCategorySummary,
+.movieCategoryDirector,
+.movieCategoryCategory{
+    margin-bottom: 5px;
+}
+
+
+.movieDetailsContent {
+    flex: 1;
+    max-width: 60%;
+}
+
+.movieDetailsContent p {
+    font-size: 24px;
+}
+
+.movieDetailsContent p:nth-child(4){
+    margin-bottom: 20px;
+}
+
+.movieImage {
+    max-width:80%;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.movieImage img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.commentsContainer {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.commentsContainer button{
+    margin-left: 15px;
+}
+
+.commentForm button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 16px;
+}
+
+.comment {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 16px;
+    max-width: 100%;
+    word-break: break-word;
+}
+
+.comment button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 16px;
+}
+
+.comment button:hover {
+    color: #ff9900;
+}
+
+.commentActions button {
+    background-color: #333;
+    color: #fff;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 16px;
+    
+}
+
+.commentActions button:nth-child(2){
+    margin-left: 15px;
+}
+
+.commentActions button:hover {
+    color: #ff9900;
+}
+
+.pagination button {
+    padding: 6px 10px;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #333;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.movieCard {
+    flex: 0 0 calc(20% - 20px);
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background: center/100% 100% no-repeat;
+    transition: transform 0.3s ease-in-out; 
+    text-decoration: none; 
+}
+
+.movieCard:hover {
+    transform: scale(1.02);
+    text-decoration: none; 
+}
+
+.movieDetails {
+    padding: 20px;
+}
+
+.movieTitle {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+    display: block;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+}

@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./resources/images/asdad.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+   
+}

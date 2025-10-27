@@ -1,0 +1,42 @@
+.movieCatalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 26px;
+    position: relative;
+}
+
+.movieCatalog h2{
+    margin-top: 10px;
+}
+
+
+.movieList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.noMovieCard {
+    background-color: #8B4513;
+    padding: 20px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 24px;
+}
+
+.pagination button {
+    padding: 6px 10px;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #333;
+    cursor: pointer;
+}
